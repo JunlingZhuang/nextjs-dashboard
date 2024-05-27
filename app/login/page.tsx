@@ -1,5 +1,10 @@
 import AcmeLogo from '@/app/ui/acme-logo';
 import LoginForm from '@/app/ui/login-form';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'login | Acme Dashboard',
+};
 
 export default function LoginPage() {
   return (
@@ -11,6 +16,11 @@ export default function LoginPage() {
           </div>
         </div>
         <LoginForm />
+        <div className=" bg-gray-50 text-sm text-gray-800">
+          <strong>Need an account to test?</strong>
+          <p>Email: user@nextmail.com</p>
+          <p>Password: 12345</p>
+        </div>
       </div>
     </main>
   );
