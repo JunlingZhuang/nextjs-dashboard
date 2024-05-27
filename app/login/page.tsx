@@ -18,8 +18,14 @@ export default function LoginPage() {
         <LoginForm />
         <div className=" bg-gray-50 text-sm text-gray-800">
           <strong>Need an account to test?</strong>
-          <p>Email: user@nextmail.com</p>
-          <p>Password: 12345</p>
+          <ul>
+            <li>
+              Email: <code>user@nextmail.com</code>
+            </li>
+            <li>
+              Password: <code>123456</code>
+            </li>
+          </ul>
         </div>
       </div>
     </main>
