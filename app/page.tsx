@@ -21,7 +21,7 @@ export default function Page() {
           <p
             className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}
           >
-            <strong>Welcome to Acme.</strong> This is a financial dashboard to
+            <strong>Welcome to Cashboard.</strong> This is a financial dashboard to
             help manage your business invoices and revenue
           </p>
           <Link
